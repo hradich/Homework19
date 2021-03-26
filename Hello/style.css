@@ -1,0 +1,124 @@
+body {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  /* Navigation CSS */
+
+
+#navBar {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 5%;
+  }
+  #navBar h1 {
+    width: 25%;
+    font-weight: 500;
+  }
+  #navigation {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  #navigation p {
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  #navBar a {
+    padding: 5px;
+  }
+
+  
+  /* Change color on hover */
+#navBar a:hover {
+    background-color: yellow;
+    color: black;
+}
+
+  /* Grid CSS */
+
+
+  #hero-text{
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+  text-align: center;
+  }
+
+    /* Category Grid CSS */
+
+    .subHeading {
+        text-align: center;
+        border-bottom: 2px solid black;
+        width: 300px;
+        margin: 50px auto;
+    }
+    #categoryGrid {
+        margin: 0px 5%;
+        display: grid;
+        grid-template-rows: 300px 300px 300px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:
+        "PawsofAustin"
+        "FederalTradeCommission"
+        "StayNPlay"
+        ;
+
+      }
+      .categoryGridArea {
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        cursor: pointer;
+        height: 250px;
+        display: grid;
+        align-content: end;
+      }
+
+            #PawsofAustin {
+                /*grid-area: "Paws of Austin";*/
+                background-image: url("./Images/GreatDane.jpg");
+            }
+
+            #FederalTradeCommission {
+                grid-area: Federal Trade Commission;
+                background-image: url("./Images/us-capitol-building-2-1234053.jpg");
+            }
+            
+            #StayNPlay{
+                /*grid-area: Stay N Play; */
+                background-image: url("./Images/Cube.jpg");
+            }
+
+            .categoryGridArea {
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                margin: 5px;
+                cursor: pointer;
+                display: grid;
+                align-content: end;
+              }
+              
+              .heading {
+                background-color: rgba(0,0,0,0.7);
+                padding: 15px;
+                height: 25px;
+                color: white;
+                font-size: 18px;
+            }
+
+
+                /*About Me section */
+
+                .aboutme {
+                    text-align: center;
+                    border-bottom: 2px solid black;
+                    width: 700px;
+                    margin: 50px auto;   
+                }
+                
+        
+                
+        
